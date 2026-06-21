@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Intent Lock</title>
+  <link rel="stylesheet" href="newtab.css" />
+</head>
+<body>
+  <main class="stage">
+    <header class="bar">
+      <span class="eyebrow">Intent&nbsp;Lock</span>
+      <span class="readout" id="readout" aria-live="polite"></span>
+    </header>
+
+    <section class="center">
+      <svg id="aperture" class="aperture" viewBox="0 0 200 200" aria-hidden="true">
+        <circle class="bezel" cx="100" cy="100" r="92"></circle>
+        <g id="blades"></g>
+      </svg>
+
+      <div class="frame" id="frame">
+        <!-- filled in by newtab.js: either the entry form or the locked-in intent -->
+      </div>
+    </section>
+
+    <p class="hint" id="hint"></p>
+  </main>
+
+  <div class="toast" id="toast" role="status"></div>
+
+  <script src="common.js"></script>
+  <script src="newtab.js"></script>
+</body>
+</html>
