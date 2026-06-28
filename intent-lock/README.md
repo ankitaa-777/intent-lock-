@@ -45,7 +45,7 @@ newtab.html/css/js – the new-tab takeover and aperture animation
 popup.html/css/js  – toolbar popup: current intent + history
 common.js          – shared storage/messaging helper (with localStorage preview fallback)
 icons/             – extension icons
-```
+``'
 
 ## Ideas for later
 
